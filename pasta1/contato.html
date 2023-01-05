@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="Produtos.css">
+<link rel="stylesheet" href="contato.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<title>Produtos-Corretor Miranda Imóveis</title>
+
+</head>
+<body>
+    <header>
+        <div class="caixa">
+        <h1> <img src="./imagens/4.png" alt="imagem da corretor Miranda imóveis"></h1>
+    
+  <nav>      
+        <ul>
+            <li><a href="Fabio.html">Home</a></li>
+            <li><a href="produto.html">Produtos</a></li>
+            <li><a href="contato.html">Contatos</a></li>
+        </ul>
+  </nav>  
+  </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required> 
+
+            <label for="email">email</label>
+            <input type="email" id="email"class="input-padrao"required placeholder="seuemail@dominio.com">
+
+            <label for="Telefone">Telefone</label>
+            <input type="Tel" id="Telefone"class="input-padrao"required placeholder="(xx)xxxxx-xxxx">
+
+            <label for="Mensagem">Mensagem</label>
+            <textarea cols="68" rows="10" id="Mensagem"class="input-padrao"required></textarea></textarea>
+
+            <fieldset>
+
+                    <legend>Como prefere o nosso contato?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contato" value="email" 
+                        id="radio-email">email</label>
+                    
+
+                    <label for="radio-telefone"><input type="radio"name="contato" value="telefone" 
+                        id="radio-telefone">telefone</label>
+                    
+
+                    <label for="radio-Whatsapp"><input type="radio" name="contato" value="Whatsapp" 
+                        id="radio-Whatsapp" checked>Whatsapp</label>
+                    
+            </fieldset>
+
+            <fieldset>
+            <legend>Qual horario prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades 
+                por e-mail?</label>
+
+            <input type="submit" value="Enviar Formulário" class="Enviar">
+        </form>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Dia</th>
+                <th>Horario</th>
+            </thead>
+            <tbody>    
+            </tr>
+            <tr>
+                <td>Segunda</td>
+                <td>08:00às18:00</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>08:00às18:00</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>08:00às20:00</td>
+            </tr>
+
+        </table>
+
+    </main>
+
+    <footer>
+        <img src="./imagens/Design sem nome.png" alt="imagem da corretor Miranda imóveis">
+        <p class="copyright">&copy;Copyright Corretor Miranda Imóveis - 2022</p>
+    </footer>
+
+
+</body>
+</html>
